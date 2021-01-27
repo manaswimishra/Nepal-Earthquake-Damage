@@ -30,12 +30,19 @@ Ensemble was the best selected model - Train 73.3%, Test - 69.3%
 
 #### File descriptions
 01_EDA_cleaning_earthquake - data exploration and visualization of damage assessment data in python notebook
+
 02_geospatial_mapping_analysis_earthquake - computed distance for generalised model in python notebook
+
 03_nosampling_allmodels_lgb_gbm_rf - Decision trees models are run in python. Data used from clean_data folder, models built seperately for 
                              undersampling and oversampling are not included here due to their poor performance. This is subject to further study.
                              all outputs of non sampling models are saved in their respective folders.
+
 04_nosampling_allmodels_ord_multi - Logistics models are run in R. Data used from clean_data folder. All outputs of non sampling models are saved in their respective folders.
+
 05_ensemble - Prediction from decision tree and logistic models are used as input data to improve prediction further. Decision tree is used as model for ensemble. This is a final outcome of use case 1 & 3.
+
 06_ClusteringKmeans - R based of code for selected numerical feature clustering
+
 07_ClusteringLCA    - R based code numerical binned feature & selected categorical feature clustering
+
 utils               -  compiled all functions used in python notebook + .py files
